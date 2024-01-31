@@ -1,7 +1,7 @@
 // https://www.reddit.com/r/dailyprogrammer/comments/myx3wn/20210426_challenge_387_easy_caesar_cipher/
 
 fn shift(letter: char, shifting: u8) -> char {
-    if letter.is_whitespace() {
+    if !letter.is_ascii_lowercase() {
         return letter;
     }
     let real_shifting: u8 = shifting % 26;
