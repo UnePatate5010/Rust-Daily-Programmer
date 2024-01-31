@@ -1,5 +1,5 @@
-use crate::exercises;
+mod t_roman_numeral_comparison;
 
 pub fn main_tests() {
-    exercises::roman_numeral_comparison::main_roman_numeral_comparison();
+    t_roman_numeral_comparison::main_roman_numeral_comparison();
 }

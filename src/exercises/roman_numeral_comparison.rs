@@ -18,15 +18,8 @@ fn numsum(n1 : &str) -> i32 {
 }
 
 
-fn numcompare(n1 : &str, n2 : &str) -> bool {
+pub fn numcompare(n1 : &str, n2 : &str) -> bool {
     numsum(n1) < numsum(n2)
 
 }
 
-pub fn main_roman_numeral_comparison() {
-    print!("[EASY] roman_numeral_comparison\t");
-    assert_eq!(numcompare("XVI", "VIII"), false);
-    assert_eq!(numcompare("V", "IIIII"), false);
-    assert_eq!(numcompare("CCLXV", "MMDII"), true);
-    println!("OK");
-}
