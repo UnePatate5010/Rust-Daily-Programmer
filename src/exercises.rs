@@ -4,3 +4,5 @@ pub mod reverse_factorial;
 pub mod next_palindrome;
 pub mod fibonacci_ish_sequence;
 pub mod letter_sum_value;
+pub mod pancake_sort;
+pub mod abacaba_sequence;
