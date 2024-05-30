@@ -10,3 +10,4 @@ pub mod yahtzee_scoring;
 pub mod progressive_taxation;
 pub mod julian_calendar;
 pub mod subfactorial;
+pub mod word_ladder;
