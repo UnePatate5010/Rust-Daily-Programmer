@@ -9,3 +9,4 @@ pub mod abacaba_sequence;
 pub mod yahtzee_scoring;
 pub mod progressive_taxation;
 pub mod julian_calendar;
+pub mod subfactorial;
