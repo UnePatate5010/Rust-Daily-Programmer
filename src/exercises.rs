@@ -11,3 +11,4 @@ pub mod progressive_taxation;
 pub mod julian_calendar;
 pub mod subfactorial;
 pub mod word_ladder;
+pub mod iec_rule;

@@ -11,11 +11,13 @@ mod t_progressive_taxation;
 mod t_julian_calendar;
 mod t_subfactorial;
 mod t_word_ladder;
+mod t_iec_rule;
 
 pub fn main_tests() {
     t_fibonacci_ish_sequence::main_fibonacci_ish_sequence(); // 236
     t_reverse_factorial::main_reverse_factorial(); // 286
-    t_word_ladder::main_julian_calendar();
+    t_iec_rule::main_iec_rule(); // 363
+    t_word_ladder::main_word_ladder(); // 363
     t_subfactorial::main_subfactorial(); // 367
     t_julian_calendar::main_julian_calendar(); // 376
     t_progressive_taxation::main_progressive_taxationt(); // 379

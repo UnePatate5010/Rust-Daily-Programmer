@@ -1,6 +1,6 @@
 use crate::exercises::word_ladder::{self, word_ladder};
 
-pub fn main_julian_calendar() {
+pub fn main_word_ladder() {
     print!("#366 [HARD] Incomplete word ladders\t");
     let words = vec![
         "abuzz",
